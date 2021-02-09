@@ -9,15 +9,54 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Hello, world!</title>
 </head>
 
 <body>
     <h1>Hello, world!</h1>
-
-
+    <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.thespruce.com/thmb/HU2q_DKL21ScThN50yvKFo_T_QM=/1280x720/smart/filters:no_upscale()/caterpillars-137097282-resized-56a300ad3df78cf7727b78f8.jpg" alt="caterpillar on leaf">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://previews.123rf.com/images/ariadna126/ariadna1261704/ariadna126170400013/76053642-monarch-butterfly-danaus-plexippus-chrysalis-beautiful-cocoon.jpg" alt="butterfly cocoon">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://static.scientificamerican.com/sciam/cache/file/01313C51-2158-4B98-831F37DDA58BC5B1_source.jpg" alt="Butterfly forming in cocoon">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="Butterfly breaking out of cocoon">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://kids.nationalgeographic.com/content/dam/kids/photos/animals/Bugs/H-P/monarch-butterfly-grass.ngsversion.1396530842099.adapt.1900.1.jpg" alt="Butterfly in flight">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=2000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2018%2F08%2Fhilary-duff5-1-2000.jpg" alt="Hillary duff">
+          </div>
+        </div>
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
